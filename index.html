@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">	
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+	<title>Home</title>
+</head>
+<body>
+		<header>
+		<!-- <img class="white-frame" src="assets/img/dark_white_frame.png"> -->
+		<div class="wrap">			
+			<nav>
+				<h1>
+					<a href="index.html">
+						<img src="assets/img/logo.svg" alt="Vengo logo">
+						<span class="logo">Vengo</span>
+					</a>
+				</h1>				
+				<span ></span>
+				<ul>
+					<div>
+						<li><a href="">Contact Us</a></li>	
+					</div>				
+				</ul>
+			</nav>
+			<section>
+				<h2 class="lg">
+					<span>Need home repairs?</span><span>Get nearby vendors over to your place quickly!</span>
+				</h2>
+				<p class="lg">Don’t put things off any longer! Install our app and get it done today.</p>
+				<a class="mobile" href="">Coming Soon</a>
+				<div class="services-list">
+					<span><a href="handymanJob.html">Handyman job</a></span>				
+					<span><a href="electricaljob.html">Electrical Services</a></span>				
+					<span><a href="plumberService.html">Plumbing</a></span>	
+					<span><a href="windowCleaningService.html">Window cleaning service</a></span>			
+					<span><a href="">Gutter cleaning</a></span>
+					<span><a href="">Pressure Washing</a></span>				
+					<span><a href="">Gardening and patio </a></span>				
+					<span><a href="">Painting and decorating</a></span>				
+					<span><a href="">Flooring</a></span>				
+					<span><a href="">Carpet fitting</a></span>				
+				</div>				
+			</section>			
+		</div>
+		</header>
+		<main>
+			<div class="wrap">
+				<section>
+					<h2>How does it work?</h2>
+					<div class="services">
+						<div class="service-box-info">
+							<div class="service-main-image">				
+							</div>						
+							<div class="service-info">
+								<h3>
+									About <br>Vengo
+								</h3>
+								<div class="demo">
+								<p>
+								We provide fully insured and vetted cleaners to clients who require our service either weekly or on fortnightly basis.
+								</p>
+								<p>
+								All cleaners that are part of our agency are personally interviewed and references checked by telephone, copies of their written references are available on request.
+								</p>
+								<p>
+								All of Arising Cleaning Agency cleaners and managers are working hand in hand to give our customers a great level of service throughout their time with Arising.
+								</p>
+								<p>
+								We primarily focus on providing regular cleaners to homes across each local area that we operate in.
+								</p>
+								</div>
+							</div>
+						</div>
+						<div class="service-box-info">
+							<div class="service-main-image">				
+							</div>
+							<div class="service-info large-p-text">
+								<h3>
+									Vendor Benefits
+								</h3>
+								<div class="demo">								
+								<ul ><p>A friendly and courteous service</p></ul>
+								<ul><p>Cleaners interviewed in their own homes</p></ul>								
+								<ul><p>Reference checking</p></ul>								
+								<ul><p>Allocation matching service of the closest available cleaner for you</p></ul>							
+								<ul><p>The opportunity to interview your regular cleaner before they start</p></ul>							
+								<ul><p>Insurance for cleaners</p></ul>						
+							    <ul><p>Replacement worker during holidays etc.</p></ul>								
+								<ul><p>The right to change the cleaner any time you request it</p></ul>							
+								<ul><p>Arrangement of your regular cleaner</p></ul>								
+								<ul><p>A great value service</p></ul>
+								</div>								
+							</div>
+						</div>
+						<div class="service-box-info">
+							<div class="service-main-image">				
+							</div>
+
+							<div class="service-info">
+								<h3>
+									What To Expect From Your Cleaner
+								</h3>
+								<div class="demo">								
+								<ul><p>Reliability</p></ul>
+								<ul><p>Courtesy, integrity and honesty at all times</p></ul>								
+								<ul><p>A personal cleaning service tailored to your needs</p></ul>								
+								<ul><p>Appropriate communication if your cleaner is unable to attend</p></ul>							
+								<ul><p>The day and time of the your clean will be agreed between you and the cleaner</p></ul>							
+								<ul><p>Standard of clean to your liking</p></ul>						
+							    <ul><p>Ironing if required</p></ul>	
+								</div>
+								<!-- <img src=".assets/img/p1/step_3@2x.png"> -->							
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+		</main>
+		<footer id="contact-us">
+			<div class="wrap">
+				<h1>
+					<a href="index.html">
+						<img src="assets/img/logo.svg" alt="Vengo logo">
+						<span>Vengo</span>
+					</a>
+				</h1>
+				<div class="contacts">
+					<p>Email: <span>support@vengo.tech</span></p>
+					<p> Phone: <span>(412) 392-7472 </span></p>
+				</div>
+				<div class="brand">
+					<p><span>&copy;</span> 2019 Vengo |</p>
+					<p> All rights reserved</p>
+				</div>
+			</div>
+		</footer>	
+		<script type="text/javascript">		
+			
+				$( ".demo" ).on('mouseenter', function() {	
+					$(this).parent('.service-info').animate({
+						top: '-95px'					
+					}, 500);
+				});
+				$( ".demo" ).on('mouseleave', function() {				
+					$(this).parent('.service-info').animate({
+					// height: '860px',					
+					top: '0'					
+				}, 500);
+				});					
+			
+		</script>
+	</body>
+	</html>

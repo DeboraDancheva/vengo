@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">	
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+	<title>Home</title>
+</head>
+<body>
+	<header>
+		<!-- <img class="white-frame" src="assets/img/dark_white_frame.png"> -->
+		<div class="wrap">			
+			<nav>
+				<h1>
+					<a href="index.html">
+						<img src="assets/img/logo.svg" alt="Vengo logo">
+						<span class="logo">Vengo</span>
+					</a>
+				</h1>				
+				<span class="bars-menu-button"><i class="fas fa-bars"></i></span>
+				<ul class="mobile-menu">
+					<div>
+						<span class="close-menu"><i class="fas fa-times"></i></span>
+
+						<li><a href="">Contact Us</a></li>	
+					</div>				
+				</ul>
+			</nav>
+			<section>
+				<h2 class="lg">
+					<span>Need home repairs?</span><span>Get nearby vendors over to your place quickly!</span>
+				</h2>
+				<p class="lg">Don’t put things off any longer! Install our app and get it done today.</p>
+				<a class="mobile" href="">Coming Soon</a>
+				<div class="services-list">
+					<span><a href="handymanJob.html">Handyman job</a></span>				
+					<span><a href="electricaljob.html">Electrical Services</a></span>				
+					<span><a href="plumberService.html">Plumbing</a></span>	
+					<span><a href="windowCleaningService.html">Window cleaning service</a></span>			
+					<span><a href="">Gutter cleaning</a></span>
+					<span><a href="">Pressure Washing</a></span>				
+					<span><a href="">Gardening and patio </a></span>				
+					<span><a href="">Painting and decorating</a></span>				
+					<span><a href="">Flooring</a></span>				
+					<span><a href="">Carpet fitting</a></span>				
+				</div>				
+			</section>			
+		</div>
+		</header>
+		<main>
+		<div class="mainDivWork">
+		<div class="workdiv">
+		<img class="workImage" src="assets/img/plumbing.png">
+		<div>		
+<p class="workP">
+We offer a complete package of home improvement services to both domestic and commercial customers in London. From internal alterations to new fittings, we can carry out numerous home improvements to give you a space you’ll love.
+		</P>
+		</div>
+		</div>
+			<div>
+			<div class="hero">
+				<h3>Customer Reviews</h3>
+				<div class="review-box">
+											<div id="slide">
+								<div class ="card">
+										<div class="profile">
+										<img src="assets/img/pic1.jpg">
+											<div>
+												<h3>Railey Olie</h3>
+												<p><Customer/p>	
+										<p class="cardP"> “The quality of cleaning is excellent. They are dependable. 
+										A morning appointment is very important to me and they always keep that time frame. 
+										I also feel very confident that my home is secure during their visits."</p>		
+											</div>										
+										</div>				
+								</div>
+								<div class ="card">
+										<div class="profile">
+										<img src="assets/img/pic2.jpg">
+												<div>
+													<h3>John Williams</h3>
+													<p>Team Lead</p>	
+										<p class="cardP"> “I like the fact that the team shows up when scheduled
+										and get the job done in the amount of time that has been agreed upon.
+										They are very thorough and always ask if there is anything else they can
+										address.”</p>		
+												</div>										
+										</div>				
+								</div>	
+								<div class ="card">
+										<div class="profile">
+										<img src="assets/img/pic3.jpg">
+												<div>
+												<h3>Merlin Nguyen</h3>
+												<p>Customer</p>	
+											<p class="cardP">“Danielle and Annie did a deep clean on Thursday and they
+											both did a good job! They are so fast!”.</p>													
+												</div>										
+										</div>
+																
+										</div>
+						</div>
+			
+			<div class="sidebar">
+				<img src="assets/img/up-arrow.png" id="upArrow">
+				<img src = "assets/img/down-arrow.png" id="downArrow">
+			</div>
+		</div>
+	</div>
+	</div>
+	</div>
+		</main>
+		<footer id="contact-us">
+			<div class="wrap">
+				<h1>
+					<a href="index.html">
+						<img src="assets/img/logo.svg" alt="Vengo logo">
+						<span>Vengo</span>
+					</a>
+				</h1>
+				<div class="contacts">
+					<p>Email: <span>support@vengo.tech</span></p>
+					<p> Phone: <span>(412) 392-7472 </span></p>
+				</div>
+				<div class="brand">
+					<p><span>&copy;</span> 2019 Vengo |</p>
+					<p> All rights reserved</p>
+				</div>
+			</div>
+		</footer>	
+		
+		<script>
+		var slide = document.getElementById("slide");
+	var upArrow = document.getElementById("upArrow");
+	var downArrow = document.getElementById("downArrow");
+	
+	<!-- //REVIEWS JS// -->
+	let x = 0;
+	
+	upArrow.onclick = function(){
+	if(x > "-600"){
+		x = x - 300;
+		slide.style.top = x + "px";
+		}
+	}
+	
+		downArrow.onclick = function(){
+	if(x < 0){
+		x = x + 300;
+		slide.style.top = x + "px";
+		}
+	};
+		</script>
+	</body>
+	</html>
